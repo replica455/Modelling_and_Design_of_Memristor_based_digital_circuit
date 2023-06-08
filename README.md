@@ -11,4 +11,7 @@
 * Personal web page	https://scholar.google.co.in/citations?user=P2ko_TUAAAAJ&hl=en
 * Qualification	Ph.D. (University of Hyderabad)
 * Phone: +91 +914023134329
-* E-mail: svnsp@uohyd.ac.in
+* E-mail: svnsp@uohyd
+
+
+!UPDATING SOON!
