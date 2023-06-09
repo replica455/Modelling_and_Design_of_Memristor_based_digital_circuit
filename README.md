@@ -177,7 +177,7 @@ Technion – Israel Institute of Technology
 * https://www.youtube.com/watch?v=NxfZ9JXm1Qw
 * Wikipedia memristor article 
 
-# Spetial Vote of Thanks
+# Special Vote of Thanks
 
 * Dr. S.V.S Nageshwar Rao, Ph.D. (University of Hyderabad) (GUIDE)
 * Dr. Sanjay Kumar, Ph.D (IIT Indore) 
