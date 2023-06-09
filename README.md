@@ -13,9 +13,9 @@
 * Phone: +91 +914023134329
 * E-mail: svnsp@uohyd
 
-
+```
 # Introduction 
-
+```
 *  circuits built with semiconductor 
 devices have provided significant growth in the number of processing elements and 
 memory bits available to system developers. This growth has provided orders of 
