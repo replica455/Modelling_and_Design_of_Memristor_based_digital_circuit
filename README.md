@@ -13,9 +13,9 @@
 * Phone: +91 +914023134329
 * E-mail: svnsp@uohyd
 
-```
+
 # Introduction 
-```
+
 *  circuits built with semiconductor 
 devices have provided significant growth in the number of processing elements and 
 memory bits available to system developers. This growth has provided orders of 
@@ -38,5 +38,29 @@ dissipation in computers
 technology will need innovations "beyond Moore" to support novel applications. 
 * An example of a "more than Moore" 
 technology is multi-layered integrated circuits (e.g., three-dimensional circuits 
+* Other new technologies which will 
+extend the capabilities of CMOS are memristive devices. This thesis focuses on 
+memristive technologies and their impact on computers.
+
+# Memristor 
+* Flash memory based on charge trapping in MOS transistors 
+* Scaling below 20 nm 
+involves formidable challenges, particularly an increase in bit error rate and a 
+reduction in write endurance (the number of write cycles before the memory becomes 
+unreliable).
+* In recent years, many alternative technologies have been 
+explored to find a replacement for flash. For most of these candidate technologies, the 
+stored data is represented as a resistance and the storage device is fabricated within 
+the metal layers.
+* These technologies share similar properties – nonvolatility, relatively 
+high write endurance, high density, good scalability below 10 nm, and fast read and 
+write
+```
+These emerging nonvolatile memory technologies can be considered as memristors, or more precisely as memristive devices
+```
+
+# Memristor Theory
+
+
 
 !UPDATING SOON!
