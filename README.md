@@ -114,7 +114,71 @@ value is within the interval [0, D].
 * Now remember the platinum metal electrodes of the device, You have to create potential difference across the TiO2 layer 
 * The vacancied can be represented as positive charges. Obviously the doped region can be represented to have lot of vacancy. The undoped region has no vacancy. So now pictirically representing it like the figure I made -  
 * ![image](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/469ae595-8455-42cf-be4e-0e60e7aaa28e)
+* Now remember the current can flow due to the vacancies i.e. the doped TiO2 plays the role for current flow
+* Let you have applied the positive potential at top Pt electrode and Negative potential at bottom electrode. In this case the same amount of positive vacancy is reppled by positive potential, So we can say the same amount of positive charges are now distributed more into undoped region i.e. the variable factor " x " has now greater value. Now in this state the Film as a whole is more conductivei.e. resistance is small. Now this can also be compared to forward biasing. Same has been illustrated by the diagram
+* ![image](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/9fe4b3f0-b27a-4d19-bc56-104e6cf07f58)
+* Similarly If you reverse the potential the reverse thing will happen. The positive charges will now remain more confine to doped region and variable "x" will become smaller. Ther overall conductance will reduce and resistance will increase. This can be illustrated by following diagram 
+* ![image](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/9511462c-7d3f-4986-bef6-863cf8a484e3)
+* Note that In both of the case the number of vacancy remains same.
+* So by changing the potential we are changing the depletion region, which in turn changes the resistance of film which in turn changes the conductance of the film.
+* In any time the potential is removed then the depletion region width i.e. "x" value do not changes i.e. it remains to lase state it was in thus producing a memory condition for the device.
 
+# Typical Memristor device Character 
 
+All of the different devices that can be considered as memristive devices share 
+several characteristics
+*  They are fabricated as oxides sandwiched between two metals 
+(metal-insulator-metal structure, also named MIM)
+* their size is relatively small 
+(for most devices it is the minimum feature size of the technology)
+*  Additionally, as 
+described by the definition of memristive devices, these devices have varying 
+resistance and are nonvolatile (i.e., no voltage is applied to retain the resistance)
+* their relatively low switching time (from sub-nanoseconds 
+to tens of nanoseconds)
+* high endurance (the number of write cycles before the 
+memory becomes unreliable, typically from 109 to 1015)
+* low switching energy 
+(typically 0.1 to 1 pJ)
+* memristive technologies are primarily investigated as memory 
+applications and considered as emerging nonvolatile memory technologies
+* It is common to refer all (or some) of these technologies as Resistive RAM (RRAM or 
+ReRAM).
 
-!UPDATING SOON!
+# Speciar summary Point on Memristor
+* It is a 2 terminal non-linear resistor
+* It is a passive element and doesnot store energy
+* It remembers last amount of current passed through it or last value of voltage applied to it
+* It is resistor with a memory
+* Non-linear relationship between voltage and current
+* No phase shift introduced between current and voltage at zero crossing
+* I-V character is a pinched Hysterisis Loop which is a function of applied frequency 
+* Physically it was develloped like Pt-TiO2-Pt (M-I-M) layer device.
+
+# Memristor Circuit point of view
+
+### !UPDATING SOON!
+
+# Reference 
+
+* Memristor-Based 
+Circuits and 
+Architectures 
+Research Thesis 
+In Partial Fulfillment of the Requirements for the 
+Degree of Doctor of Philosophy 
+Shahar Kvatinsky 
+Submitted to the Senate of the 
+Technion – Israel Institute of Technology
+* Memristor-Inspired Digital Logic Circuits and
+ Comparison With 90-/180-nm
+ CMOSTechnologies by, Sanjay Kumar, Member, IEEE, Mohit Kumar Gautam
+* https://www.youtube.com/watch?v=4dfGm7zkTiM
+* https://www.youtube.com/watch?v=NxfZ9JXm1Qw
+* Wikipedia memristor article 
+
+# Spetial Vote of Thanks
+
+* Dr. S.V.S Nageshwar Rao, Ph.D. (University of Hyderabad) (GUIDE)
+* Dr. Sanjay Kumar, Ph.D (IIT Indore) 
+
