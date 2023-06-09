@@ -1,6 +1,6 @@
 ## Modelling_and_Design_of_Memristor_based_digital_circuit
 ### M. Tech Thesis work, University of Hyderabad 
-### Conducted By - S. B. Acharyya
+### Thesis By - S. B. Acharyya
 ### Guided By - 
 
 
