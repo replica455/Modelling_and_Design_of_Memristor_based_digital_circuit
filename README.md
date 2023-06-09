@@ -14,4 +14,29 @@
 * E-mail: svnsp@uohyd
 
 
+# Introduction 
+
+*  circuits built with semiconductor 
+devices have provided significant growth in the number of processing elements and 
+memory bits available to system developers. This growth has provided orders of 
+magnitude improvements in speed, power consumption, and reliability, together with 
+significant reductions in the cost per device
+* These trends are direct consequences of 
+frequent miniaturization of device dimensions in the semiconductor fabrication 
+process, as originally described by Gordon Moore in 1965, predicting the growth and 
+proliferation of digital computing and its applications ("Moore's Law")
+* Moore's law, however, cannot be sustained indefinitely
+* CMOS transistor sizes will reach fundamental physical limits within 
+the next decade
+* the field of computing is already struggling with other 
+fundamental problems which require innovative solutions. The first problem is related 
+to the delay and bandwidth required to access memory, and is popularly known as 
+"the memory wall" 
+* Another problem is the power crisis related to energy 
+dissipation in computers 
+* In future years, when device sizes will no longer be scalable, microelectronic 
+technology will need innovations "beyond Moore" to support novel applications. 
+* An example of a "more than Moore" 
+technology is multi-layered integrated circuits (e.g., three-dimensional circuits 
+
 !UPDATING SOON!
