@@ -94,6 +94,27 @@ frequencies the device behaves as a linear resistor
 
 # Practical Memristors 
 
+* Hewlett Packard 
+connected the theory of memristive devices to TiO2 resistive switches
+*  Initially, 
+Hewlett Packard claimed that their device is similar to ideal memristors, and proposed 
+a model for the structure and behavior of their devices
+* ![image](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/e7619060-b885-428e-8131-49d3a6db33c1)
+* He modelled the memristance as ``` M(x,i) = [ Ron (x(t) / D) ] + [ Roff (1 - {x(t)/D})] ``` 
+* where RON is the resistance when x(t) = D, and ROFF is the resistance when x(t) = 0. 
+The state variable x(t) is limited to the physical dimensions of the device, i.e., the 
+value is within the interval [0, D].
+* Now why and how the " x " is actually a variable stste model of device can be understood like - Just like previous structure of doped and undoped TiO2 we can represent it more specifically as 
+* ![image](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/e18393dc-a404-4bfc-99b2-213280ca8dac)
+* The structure of TiO2 is little complicated to understand but anyway here is the structure 
+* ![Rutile-unit-cell-3D-balls](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/8ef63377-cdc9-43dc-a8bf-beab60f143c0)
+* TiO2 is usually an electrical insulator but when some of O2 ions are missing this can lead to electrical conductivity. This can be illustrated by following diagram. For the sake of simplicity I've removed the covalent bond between Ti+ and O- ions. 
+* ![image](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/71832692-77f6-4937-999a-bb373d5ee56c)
+* Remember that the oxygen is a negatively charged ions so it will move gainst the direction of electric field. the resi of diagram is self explainatory.
+* Now remember the platinum metal electrodes of the device, You have to create potential difference across the TiO2 layer 
+* The vacancied can be represented as positive charges. Obviously the doped region can be represented to have lot of vacancy. The undoped region has no vacancy. So now pictirically representing it like the figure I made -  
+* ![image](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/469ae595-8455-42cf-be4e-0e60e7aaa28e)
+
 
 
 !UPDATING SOON!
