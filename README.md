@@ -56,7 +56,8 @@ the metal layers.
 high write endurance, high density, good scalability below 10 nm, and fast read and 
 write
 ```
-These emerging nonvolatile memory technologies can be considered as memristors, or more precisely as memristive devices
+These emerging nonvolatile memory technologies can be 
+considered as memristors, or more precisely as memristive devices
 ```
 
 # Memristor Theory
