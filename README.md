@@ -62,6 +62,38 @@ considered as memristors, or more precisely as memristive devices
 
 # Memristor Theory
 
+* four fundamental circuit variables - the voltage V, current I, flux φ, and electric charge q.
+* ![Two-terminal_non-linear_circuit_elements svg](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/e25407d0-adc9-4ba9-85a6-4d38db080e13)
+* Resistors connect voltage to current by Ohm's law (V = IR), capacitors connect charge to 
+voltage (q = CV), and inductors connect current to flux (φ = LI). 
+* possible 
+relationship is the connection between charge and flux and is not covered by any 
+conventional circuit element.
+* for the sake of completeness, the 
+existence of a fourth fundamental circuit element that connects the charge and flux 
+and named the device the ```memristor```, as a short for ```memory resistor```.
+* Formally, a charge-controlled memristor is given by ```v(t) = M(q(t)) i(t)``` where  " M " is called memristance of memristor defined by ``` M(q(t)) = dφ(q)/dq ``` 
+* The memristance of the memristor  has the units of resistance
+* The memristor is therefore actually a passive two-port 
+element with variable resistance, which changes upon the history of the device (i.e., 
+the memristance depends on the total charge passed through the device)
+* In 1976, the theory of memristors was extended by Chua and Kang to a nonlinear 
+dynamical system named memristive systems
+* Similarly to memristors, a 
+memristive device is a passive two-terminal device with varying resistance
+* The difference between a memristor and memristive device is how the resistance changes. 
+In memristive devices, the resistance depends on an internal state x ∈ R^n, which 
+depends on the history of the device (in terms of the past current passed through the 
+device, or, alternatively, the past voltage across the device) and not directly on the 
+charge
+* Memristors and memristive devices exhibit hysteresis in their current-voltage curve.
+* ![image](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/30aae993-9c02-487e-b020-ed1833f53879)
+* Although the shape of the hysteresis varies for different devices, it is always passes 
+through the origin. The hysteresis depends on the input, where for high input 
+frequencies the device behaves as a linear resistor
+
+# Practical Memristors 
+
 
 
 !UPDATING SOON!
