@@ -187,9 +187,22 @@ So far we know memristor is a passive device. Our target is to use it in circuit
 ``` Y =VCC * [(ROFF / RON +ROFF )] ~ VCC```
 * ![image](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/563d176d-8b3b-4c75-beb2-eebb2923674a)
   
+### Comments
+AND and OR gates can be implemented using memristors only. By this topology, even ‘n’ input gates can be implemented using memristors.
+### Inverter Operation
+ But the primary issue is incomplete
+ logic family. Without NOT operation, it is not possible to
+ implement boolean functions. Not Gate uning only memristor is not possible at all. So CMOS inverter can be used to
+ implement NOT operation. So if CMOS inverter is designed using 180 nm process technology. The operating voltage for the CMOS inverter is 1.8 V. We kept the same parameter of memristors as used to simulate the current–voltage
+
+### Universal Gate Implementation
+
+As describedinprevious section, NOT operation is not possible with memristors. So, to get the complete logic family we should add CMOS inverter at the output ofAND gate to get NAND operation and similarly NOR operation can alsobe implemented. The below diagram is of NAND gate.
 
 
+![image](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/fc72821e-2107-4349-91ab-084b80113c28)
 
+## Other logic gate and combinational circuits
 
 ### !UPDATING SOON!
 
@@ -209,7 +222,9 @@ Technion – Israel Institute of Technology
  CMOSTechnologies by, Sanjay Kumar, Member, IEEE, Mohit Kumar Gautam
 * https://www.youtube.com/watch?v=4dfGm7zkTiM
 * https://www.youtube.com/watch?v=NxfZ9JXm1Qw
-* Wikipedia memristor article 
+* Wikipedia memristor article
+* Hybrid Memristor-CMOS (MeMOS) based Logic Gates and Adder Circuits Tejinder Singh, Member, IEEE
+* https://www.youtube.com/watch?v=jTX3EHHFM5s
 
 # Special Vote of Thanks
 
