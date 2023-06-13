@@ -156,6 +156,40 @@ ReRAM).
 * Physically it was develloped like Pt-TiO2-Pt (M-I-M) layer device.
 
 # Memristor Circuit point of view
+So far we know memristor is a passive device. Our target is to use it in circuits. For that we need to look at the polarity of the device. The thick black line in memristor symbol represents the polarity of the device. When current enters the blsck mark then the resistance decreases to Ron . Similarly when the current leaves the mark then the device shows high resistance Roff. 
+* The basic boolean logic operations AND and OR can be analysed using memristors.
+* ![image](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/8cdf388a-d15d-4680-b01f-3b47ab6eb347)
+* The following set of figure describes the computation of AND operation for allinput cases of a two input AND gate using memristors only.
+###  AND OPERATION - A=1 B=1
+* For case A=1 and B=1, both the inputs are tied to VCC i.e., at logic 1. As described in below figure, no current flow through the circuit and the output in this case is logic = VCC or 1.
+* ![image](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/f6edeb4f-0e28-40c8-9a36-953c94655c2b)
+###  AND OPERATION - A=0 B=0
+* For the case of A=0 and B=0 as shown in below figure it can be considered that the inputs are at logic 0, the output should also be logic 0. Again there is no current flow through the circuit, the same logic appears at output node Y
+* ![image](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/70ac31f0-257c-43fe-b7d3-5aabe6b5bc60)
+###  AND OPERATION - (A=1 B=0) OR (A-0 B=1)
+*For the case when any of input is at logic 1 and other at logic 0 as shown in below figure. In this case, input A=1 and B=0 the current flows through VCC to GND. When current passes from memristor MR0, the resistance of that memristor increases to Roff, the resistance of memristor MR1 decreases to Ron and current leave through GND node. Resistance of memristors are ROFF >>> RON. By this way, we get two resistors ROFF and RON with different values. Thus as per the voltage divider rule, we get The calculation of output voltage at Y for the voltage divider
+ circuit can be determined as
+```
+ Y = VCC * [RON / (RON +ROFF)]
+ ROFF is significantly higher than RON we can simplify the equation as
+ Y =VCC * (RON / ROFF) << VCC
+ Y ~ GND
+ ```
+* ![image](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/df9a209a-0755-425e-a447-5017b5eb538d)
+
+### OR gate operation 
+* When the polarity of the memristors MR0 and MR1 is reversed, the circuit behaves as OR gate, and its analysis can be done is similar way.
+* For inputs A=0,B=0 and A=1,B=1 the output Y get the value 0 and 1 as no
+ current flow through the circuit and the behavior remains same
+ as in the case of AND gate.
+* In below figure shows the case when any one of the input is at logic 1 and other at logic 0. Current flows through the VCC towards memristor MR0. As the memristor is in reverse polarity arrangement, the resistance of the memristor decreases to RON and thus the voltage shows up at output node Y=VCC. The output becomes logic 1 when any of the input is at logic 1. The resistance of other memristor MR1 increases to RON and the condition remains same ROFF>>>RON because these are the fixed values. The output can be determined for
+ OR gate using the voltage divider rule as
+``` Y =VCC * [(ROFF / RON +ROFF )] ~ VCC```
+* ![image](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/563d176d-8b3b-4c75-beb2-eebb2923674a)
+  
+
+
+
 
 ### !UPDATING SOON!
 
