@@ -206,6 +206,22 @@ As describedinprevious section, NOT operation is not possible with memristors. S
 
 ### !UPDATING SOON!
 
+## Neuromorphic Computating using Memristor
+
+### Motives and background
+
+* In conventional Von-Neumann architecture the CPU and Memory are placed separately which can lead to data congestionin data bus due to data movement. This situation is called memory bottle neck.
+* In our Human brain anatomy there is no segrigation between memory storage location and computation area, all as a whole we recognize as brain and among them specifically we see the neural network composed neurons, axions, synapse etc.
+* Considering the anatomy of brain we improvise the neuromorphic computing or in memory computaion where the system can be imagined as homogenous set of nodes which are connected to each other is a grid or matrix format where a particulat node can be used as storage element or an computation element according to necessity.
+* This grid or matrix structure is implemented as hardware in form of  crossbar architecture
+* This crossbar architecture provides a high sense of parallism in computation and storage
+* The storage and computation element can be develloped using the memristor we have discussed so far.
+* This whole arrangement of memristor in a crossbar arrangement is called Resistive RAM (RRAM)
+* ![neu_cross](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/270e1fcd-2abb-4cad-b444-1405055b92a0)
+
+
+
+
 # Reference 
 
 * Memristor-Based 
