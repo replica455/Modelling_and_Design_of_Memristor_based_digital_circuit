@@ -219,6 +219,21 @@ As describedinprevious section, NOT operation is not possible with memristors. S
 * This whole arrangement of memristor in a crossbar arrangement is called Resistive RAM (RRAM)
 * ![neu_cross](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/270e1fcd-2abb-4cad-b444-1405055b92a0)
 
+### RRAM
+There are some features which i would like to summarise in short
+* The RRAM are Nonvolatile in nature
+* They can store the data in form of resistance
+* Unlike CMOS the in memory computation dosnot favour heteroginity of logic primitive. So basically we need to think about functionally complete logic like (NOR), (NAND), (Majority detector + NOT), (Imply + FALSE). So stick to particular logic only if you are implementing the gates using nor gate then stick to nor gate only.
+* The main mechanism for switching of oxide based RRAM is the formation and rupture of a conductive
+filament. These are formed by applying a soft breakdown voltage over the device. Initially the RRAM
+is at a high resistance state (HRS). To get a working RRAM cell, a filament is constructed by a forming
+voltage. The electric field displaces oxygen ions, which reside in the dielectric, towards the oxygen rich
+region, leaving a conductive oxygen vacancy filament. In this mode the RRAM is said to be in a low
+resistance state (LRS). To reset the RRAM into a HRS a reverse bias is applied which lets the oxygen re-migrate into the filament, resulting in a rupture. A set operation can be programmed by
+again applying a positive voltage. The mechanism can be understood with following diagram
+* ![image](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/93a99692-08aa-4c91-b7da-c7deab8fe2c6)
+
+
 
 
 
