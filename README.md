@@ -282,6 +282,12 @@ Technion – Israel Institute of Technology
 * Wikipedia memristor article
 * Hybrid Memristor-CMOS (MeMOS) based Logic Gates and Adder Circuits Tejinder Singh, Member, IEEE
 * https://www.youtube.com/watch?v=jTX3EHHFM5s
+* Thesis for Master’s Degree in Physics
+Investigation of Resistive Random Access
+Memory for 1T1R Nanowire Array
+Integration
+Autumn 2019 - Spring 2020
+LUND UNIVERSITY FACULTY OF SCIENCE
 
 # Special Vote of Thanks
 
