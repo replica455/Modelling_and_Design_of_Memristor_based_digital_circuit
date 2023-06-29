@@ -232,6 +232,28 @@ region, leaving a conductive oxygen vacancy filament. In this mode the RRAM is s
 resistance state (LRS). To reset the RRAM into a HRS a reverse bias is applied which lets the oxygen re-migrate into the filament, resulting in a rupture. A set operation can be programmed by
 again applying a positive voltage. The mechanism can be understood with following diagram
 * ![image](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/93a99692-08aa-4c91-b7da-c7deab8fe2c6)
+* The CBA is a square array with the rows and columns separated by
+RRAM cells, situated on each node
+* Ideally, passive CBAs would
+stand as an excellent structure, though the operations that are used to write and read memory bring
+difficulties related to leakage currents.
+* ![image](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/e2d3340b-2987-4250-8224-ccc4b9104589)
+* Active CBAs have been shown to suppress leakage currents by introducing selector devices in the
+cell. The selectors are coupled in series with the RRAM. In particular the one-transistorone-RRAM (1T1R) structure will be investigated.
+* ![image](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/a76f4185-25ed-4847-b744-718a57ef39bc)
+* A cell is programmed by applying voltages to the word-line (WL) and bit-line (BL) of the CBA. The
+WL connects to a row of cells. The operation is trivial for passive CBAs but for 1T1R CBAs the WL
+accesses the transistor and allows for a current to flow between the source and the drain. The specific
+way the WL and BL are biased depends on the type of CBA.
+* So along with the control line the passive RRAM looks like the figure below
+* ![image](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/750b12cf-75ea-4da2-88cc-8ae8d51024fc)
+* And along with the control line the active aRRAM looks like the figure below
+* ![image](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/5eecc5fe-c395-4faf-a60e-a4f865c92b2a)
+* 
+
+
+
+
 
 
 
