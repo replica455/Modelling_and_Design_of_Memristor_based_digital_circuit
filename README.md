@@ -292,5 +292,6 @@ LUND UNIVERSITY FACULTY OF SCIENCE
 # Special Vote of Thanks
 
 * Dr. S.V.S Nageshwar Rao, Ph.D. (University of Hyderabad) (GUIDE)
+* Sai Prasad Goud (Research scholar University Of Hyderabad)
 * Dr. Sanjay Kumar, Ph.D (IIT Indore) 
 
