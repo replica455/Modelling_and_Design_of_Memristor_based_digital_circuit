@@ -73,7 +73,11 @@ conventional circuit element.
 existence of a fourth fundamental circuit element that connects the charge and flux 
 and named the device the ```memristor```, as a short for ```memory resistor```.
 * Formally, a charge-controlled memristor is given by ```v(t) = M(q(t)) i(t)``` where  " M " is called memristance of memristor defined by ``` M(q(t)) = dφ(q)/dq ```
-* The above relations can be summarised like this![1](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/ff4c5c3b-6852-4c4d-a4ad-1069e5dcd830)
+* The above relations can be summarised like this
+
+
+ 
+ ![1](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/ff4c5c3b-6852-4c4d-a4ad-1069e5dcd830)
 * The memristance of the memristor  has the units of resistance
 * The memristor is therefore actually a passive two-port 
 element with variable resistance, which changes upon the history of the device (i.e., 
@@ -134,6 +138,23 @@ The current-voltage (I-V) characteristic of a memristor is typically represented
 
 ***Let us now eleborate***
 
+now from the previous discussion we already know by applying potential on the top and bottom electrode the oxygen vacancies may intrude in the undoped region or may remain confined to the doped region which will make the low resistance (high conductance) path or high resistance (low conductance) path i.e. the resistive syitching occurs. In very simple manner we can depict the mechanism as the diagram as shown below
+
+
+![image](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/53761522-c654-458e-8124-c21e85399da2)
+
+
+See we have introduced some standard terminilogy. when the Resistance is low (LRS) i.e. the oxygen vacancies intrude deep into the undoped region and touches the bottom electrode (filament has formed) the current can easily frow through the device and this is called the ***SET*** state.
+Similarly at high resistance state (HRS) the current cant frow through the device and this state is called the ***RESET*** state. From The perspective of digital electronics it can be shown like the picture below. the LRS is equivalent to ligic 1 and HRS is equivalent to logic 0.
+
+![image](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/8d89d90d-953f-4f98-a1f7-b78b7860f2a1)
+
+Now finally coming to the IV characterestics. First we have to know what is the difference between IV of resistor and memristor. When  it comes to resistor we know there is no resistive switching phenomena i.e. if a resistor has a rasistance of 10Kohm it will stay at 10Kohm whatever permisible amount of voltage is applied  so quite obviously the IV character is a straight line passing through the origin. 
+Now thing is different in case of memristor. Let us go step by step
+
+* First there was no voltage applied to the device and we keep on increasing the voltage from V=0 gradually. So as the voltage applied is small the filament of oxygen vacancies didn't formed properly the device remain in HRS, i.e. by applying the voltage we are getting only small amount of current. You can follow the picture.
+
+![image](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/9c66cb40-c8df-4597-a37a-f53d1bd83713)
 
 # Typical Memristor device Character 
 
