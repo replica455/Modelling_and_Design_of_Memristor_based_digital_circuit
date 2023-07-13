@@ -72,7 +72,8 @@ conventional circuit element.
 * for the sake of completeness, the 
 existence of a fourth fundamental circuit element that connects the charge and flux 
 and named the device the ```memristor```, as a short for ```memory resistor```.
-* Formally, a charge-controlled memristor is given by ```v(t) = M(q(t)) i(t)``` where  " M " is called memristance of memristor defined by ``` M(q(t)) = dφ(q)/dq ``` 
+* Formally, a charge-controlled memristor is given by ```v(t) = M(q(t)) i(t)``` where  " M " is called memristance of memristor defined by ``` M(q(t)) = dφ(q)/dq ```
+* The above relations can be summarised like this![1](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/ff4c5c3b-6852-4c4d-a4ad-1069e5dcd830)
 * The memristance of the memristor  has the units of resistance
 * The memristor is therefore actually a passive two-port 
 element with variable resistance, which changes upon the history of the device (i.e., 
@@ -91,6 +92,11 @@ charge
 * Although the shape of the hysteresis varies for different devices, it is always passes 
 through the origin. The hysteresis depends on the input, where for high input 
 frequencies the device behaves as a linear resistor
+* v = M(x).i --> i=0 --> v=0 : zero crossing
+“if it’s pinched, it’s a memristor” (L.Chua)
+* ![image](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/ac92faee-f1a1-4d42-8605-acd3f23fb80b)
+  
+
 
 # Practical Memristors 
 
@@ -122,6 +128,12 @@ value is within the interval [0, D].
 * Note that In both of the case the number of vacancy remains same.
 * So by changing the potential we are changing the depletion region, which in turn changes the resistance of film which in turn changes the conductance of the film.
 * In any time the potential is removed then the depletion region width i.e. "x" value do not changes i.e. it remains to lase state it was in thus producing a memory condition for the device.
+
+# Why Hysteresis ?
+The current-voltage (I-V) characteristic of a memristor is typically represented by a butterfly hysteresis loop. This is because the resistance of a memristor depends on the direction and magnitude of the current that has passed through it, and these effects are cumulative over time. As a result, the I-V characteristic of a memristor shows a hysteresis loop that resembles the shape of a butterfly.
+
+***Let us now eleborate***
+
 
 # Typical Memristor device Character 
 
