@@ -323,6 +323,8 @@ Degree of Doctor of Philosophy
 Shahar Kvatinsky 
 Submitted to the Senate of the 
 Technion – Israel Institute of Technology
+* https://www.esa.int/gsp/ACT/doc/EVENTS/memristor_workshop/ACT-NAN-0415_2_wouters_memristors_DW_final.pdf
+* https://www.youtube.com/watch?v=P9kcbGvToFU
 * Memristor-Inspired Digital Logic Circuits and
  Comparison With 90-/180-nm
  CMOSTechnologies by, Sanjay Kumar, Member, IEEE, Mohit Kumar Gautam
