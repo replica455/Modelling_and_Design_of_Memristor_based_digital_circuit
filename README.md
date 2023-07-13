@@ -152,9 +152,25 @@ Similarly at high resistance state (HRS) the current cant frow through the devic
 Now finally coming to the IV characterestics. First we have to know what is the difference between IV of resistor and memristor. When  it comes to resistor we know there is no resistive switching phenomena i.e. if a resistor has a rasistance of 10Kohm it will stay at 10Kohm whatever permisible amount of voltage is applied  so quite obviously the IV character is a straight line passing through the origin. 
 Now thing is different in case of memristor. Let us go step by step
 
-* First there was no voltage applied to the device and we keep on increasing the voltage from V=0 gradually. So as the voltage applied is small the filament of oxygen vacancies didn't formed properly the device remain in HRS, i.e. by applying the voltage we are getting only small amount of current. You can follow the picture.
+* First there was no voltage applied to the device and we keep on increasing the voltage from V=0 gradually. So as the voltage applied is small the filament of oxygen vacancies didn't formed properly the device remain in HRS, i.e. by applying the voltage we are getting only small amount of current. You can follow the picture that our device is in HRS.
 
 ![image](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/9c66cb40-c8df-4597-a37a-f53d1bd83713)
+
+* Now as the voltage increases beyond a particular point the filament is formed completely and the current flow increases and our device switches to LRS. That particular voltage is termed as Vset. the picture looks like this below where the Ic compliance current set to limit the potentially very high current during set process.
+
+![image](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/f2af6dab-9151-4479-99ee-52c137cb8835)
+
+
+* Now if you start to reduce the voltage at particular negative value you will get the current suddenly becomes close to zero, so we can conclude the filament has been raptured. This particular case is back again to HRS, whiv=ch will bring us back to blue line. Overall the IV character looks like this
+
+
+![image](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/c514330f-9904-484f-bef6-9992b617c493)
+
+
+
+
+
+
 
 # Typical Memristor device Character 
 
