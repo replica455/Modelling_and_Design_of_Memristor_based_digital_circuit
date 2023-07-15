@@ -301,8 +301,11 @@ way the WL and BL are biased depends on the type of CBA.
 * So now in a broad sense the 1T-1R RAM can be pictured like the figure below
 *  ![3-Figure2-1](https://github.com/replica455/Modelling_and_Design_of_Memristor_based_digital_circuit/assets/55652905/6f3ee048-b744-40d2-b67a-79714e4d487f)
 *  The SL are the source line which remains grounded.
-*  
 
+# Memristor Array Theory
+
+*  efficient analog implementation of the multiply-add engine that can have significant impact in signal processing and neural network implementations.
+* analog vector-matrix multiplication which is extensively used in neural network implementations and hardware accelerators for digital signal processing (DSP) applications such as image compression
 
 
 
